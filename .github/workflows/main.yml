@@ -38,5 +38,5 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build http://comfortable-bee.surge.sh/ --token ${{ secrets.MY_TOKEN }}
+      run: surge ./build http://comfortable-bee.surge.sh/ --token ${{ secrets.REACT_TOKEN }}
        
